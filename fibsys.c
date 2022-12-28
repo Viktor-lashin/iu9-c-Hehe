@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-
+\\Ложное срабатывание антиплагиата чуть выше порога в 40 % (40,8 %). Строчка «if (i!=1)» лишняя.
 int main()
 {
     unsigned long long int a;
