@@ -46,8 +46,6 @@ void qsstack(int* arr, int n){
         if(t.low<t.high) {
             int pivo = partition(arr, t);
             struct stack* s1= calloc(1,sizeof (struct stack));
-            //for(int i=0;i<n;i++)printf("%d ",arr[i]);
-            //printf(":%d:\n",pivo);
             int k = t.high;
             t.high = pivo - 1;
             s1->down = s;
