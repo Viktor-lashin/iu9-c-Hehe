@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-//К сожалению сервер не работает, так что код тут не дебаженный
+
 struct Elem { struct Elem *prev, *next; int v; };
 
 struct Elem* FREE[100000];
