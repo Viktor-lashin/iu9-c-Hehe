@@ -1,3 +1,4 @@
+\\решение на 2 балла из 1
 void bubblesort(unsigned long nel,int (*compare)(unsigned long i, unsigned long j),void (*swap)(unsigned long i, unsigned long j))
 {
     int found=0;
